@@ -4,4 +4,4 @@ En este repositorio se encuentran el codigo de los buddy-tree y  el de las unida
 
 index.html = buddy-tree.
 
-unidades meticas = distancia entre dos puntos.
+unidades metricas.html = distancia entre dos puntos.
