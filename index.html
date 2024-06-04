@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Buddy System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulación de Buddy System</h1>
+    <div id="memory"></div>
+    <button onclick="allocate(32)">Asignar 32 KB</button>
+    <button onclick="allocate(64)">Asignar 64 KB</button>
+    <button onclick="freeBlock(32)">Liberar 32 KB</button>
+    <button onclick="freeBlock(64)">Liberar 64 KB</button>
+    
+    <div>
+        <input type="number" id="customSize" placeholder="Tamaño en KB">
+        <button onclick="allocateCustom()">Asignar Personalizado</button>
+        <button onclick="freeCustom()">Liberar Personalizado</button>
+    </div>
+    
+    <div id="fragmentation"></div>
+    <div id="actionHistory"></div>
+    <div id="debugInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

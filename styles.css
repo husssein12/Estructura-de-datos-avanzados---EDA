@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.memory-block {
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 30px;
+}
+
+.allocated {
+    background-color: #f8d7da;
+}
+
+.free {
+    background-color: #d4edda;
+}
+
+#memory {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    margin: 5px;
+}
+
+#fragmentation, #actionHistory, #debugInfo {
+    margin-top: 20px;
+}
+
+input {
+    margin: 5px;
+}
